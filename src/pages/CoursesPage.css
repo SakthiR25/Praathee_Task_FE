@@ -1,0 +1,69 @@
+.courses-page {
+    max-width: 1053px;
+    margin: 0 auto;
+    padding: 80px;
+        background-color: #9b9b9b;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.courses-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.courses-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.courses-page ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e9dbdb;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.courses-page ul li button {
+    padding: 8px 16px;
+    margin-left: 8px; /* Add a gap between buttons */
+    border: none;
+    background-color: #19d451;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.courses-page ul li button:first-child {
+    margin-left: 54px; /* No gap on the first button */
+}
+
+.courses-page ul li button:hover {
+    background-color: #d32f2f;
+}
+
+.courses-page input[type='text'] {
+    flex: 1; /* Take up remaining space */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.courses-page .add-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.courses-page .add-button:hover {
+    background-color: #388e3c;
+}
